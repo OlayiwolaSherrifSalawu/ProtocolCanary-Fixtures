@@ -162,6 +162,17 @@ discussion and diff. New entries must include that link; see
   Protocol 28 and 29 on Testnet and Mainnet, and the network passphrases,
   with `tests/test_upstream_matrix_docs.py` keeping the page and the matrix
   in agreement. ([PR #306])
+- `protocol-29/` baseline pack scaffold: `registry-v1.json` declaring
+  `registryVersion: 1`, `protocol: 29` (integer) and the empty
+  `fixtures: []` array, with `rpc/`, `xdr/` and `soroban/` subdirectories,
+  and `tests/test_protocol29_baseline.py` asserting the manifest against
+  `schemas/registry-v1.schema.json`, the canonical CF-02 section 3/5
+  encoding and `packDigest`, and that the validator accepts the new
+  directory without diagnostics. The empty baseline is a directory
+  scaffold only, never reportable as compatibility coverage;
+  `protocol-28/` is untouched.
+  <!-- TODO: switch to the PR link once this PR is opened. -->
+  ([#290])
 
 ### Changed
 
@@ -352,3 +363,4 @@ discussion and diff. New entries must include that link; see
 [PR #308]: https://github.com/StellarCanary/ProtocolCanary-Fixtures/pull/308
 [PR #309]: https://github.com/StellarCanary/ProtocolCanary-Fixtures/pull/309
 [PR #315]: https://github.com/StellarCanary/ProtocolCanary-Fixtures/pull/315
+[#290]: https://github.com/StellarCanary/ProtocolCanary-Fixtures/issues/290
