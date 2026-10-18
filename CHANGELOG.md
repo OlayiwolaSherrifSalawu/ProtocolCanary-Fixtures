@@ -262,9 +262,7 @@ discussion and diff. New entries must include that link; see
   does not reject valid fixtures. The test that pinned the previous
   permissive behavior and `CONTRIBUTING.md`'s "Unknown top-level fields"
   section were updated to match.
-  <!-- TODO: switch to the PR link once this PR is opened (CONTRIBUTING.md
-       requires the PR link); kept as the issue link to stay a valid URL. -->
-  ([#287])
+  ([PR #316])
 
 ### Known gaps
 
@@ -365,4 +363,4 @@ discussion and diff. New entries must include that link; see
 [PR #308]: https://github.com/StellarCanary/ProtocolCanary-Fixtures/pull/308
 [PR #309]: https://github.com/StellarCanary/ProtocolCanary-Fixtures/pull/309
 [PR #315]: https://github.com/StellarCanary/ProtocolCanary-Fixtures/pull/315
-[#287]: https://github.com/StellarCanary/ProtocolCanary-Fixtures/issues/287
+[PR #316]: https://github.com/StellarCanary/ProtocolCanary-Fixtures/pull/316
