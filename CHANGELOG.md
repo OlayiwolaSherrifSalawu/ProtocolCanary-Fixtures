@@ -169,8 +169,7 @@ discussion and diff. New entries must include that link; see
   for every approved capability and negative tests for unapproved strings
   (e.g. `fake-cap`). Engine-side parity is tracked in
   [Protocol-Canary#512](https://github.com/StellarCanary/Protocol-Canary/issues/512).
-  <!-- TODO: switch to the PR link once this PR is opened. -->
-  ([#288])
+  ([PR #317])
 
 ### Changed
 
@@ -373,3 +372,4 @@ discussion and diff. New entries must include that link; see
 [PR #309]: https://github.com/StellarCanary/ProtocolCanary-Fixtures/pull/309
 [PR #315]: https://github.com/StellarCanary/ProtocolCanary-Fixtures/pull/315
 [PR #316]: https://github.com/StellarCanary/ProtocolCanary-Fixtures/pull/316
+[PR #317]: https://github.com/StellarCanary/ProtocolCanary-Fixtures/pull/317
