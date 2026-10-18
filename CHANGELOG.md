@@ -171,8 +171,7 @@ discussion and diff. New entries must include that link; see
   directory without diagnostics. The empty baseline is a directory
   scaffold only, never reportable as compatibility coverage;
   `protocol-28/` is untouched.
-  <!-- TODO: switch to the PR link once this PR is opened. -->
-  ([#290])
+  ([PR #318])
 
 ### Changed
 
@@ -363,4 +362,4 @@ discussion and diff. New entries must include that link; see
 [PR #308]: https://github.com/StellarCanary/ProtocolCanary-Fixtures/pull/308
 [PR #309]: https://github.com/StellarCanary/ProtocolCanary-Fixtures/pull/309
 [PR #315]: https://github.com/StellarCanary/ProtocolCanary-Fixtures/pull/315
-[#290]: https://github.com/StellarCanary/ProtocolCanary-Fixtures/issues/290
+[PR #318]: https://github.com/StellarCanary/ProtocolCanary-Fixtures/pull/318
