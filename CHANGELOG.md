@@ -170,6 +170,17 @@ discussion and diff. New entries must include that link; see
   (e.g. `fake-cap`). Engine-side parity is tracked in
   [Protocol-Canary#512](https://github.com/StellarCanary/Protocol-Canary/issues/512).
   ([PR #317])
+- `protocol-29/` baseline pack scaffold: `registry-v1.json` declaring
+  `registryVersion: 1`, `protocol: 29` (integer) and the empty
+  `fixtures: []` array, with `rpc/`, `xdr/` and `soroban/` subdirectories,
+  and `tests/test_protocol29_baseline.py` asserting the manifest against
+  `schemas/registry-v1.schema.json`, the canonical CF-02 section 3/5
+  encoding and `packDigest`, and that the validator accepts the new
+  directory without diagnostics. The empty baseline is a directory
+  scaffold only, never reportable as compatibility coverage;
+  `protocol-28/` is untouched.
+  ([PR #318])
+
 
 ### Changed
 
@@ -373,3 +384,4 @@ discussion and diff. New entries must include that link; see
 [PR #315]: https://github.com/StellarCanary/ProtocolCanary-Fixtures/pull/315
 [PR #316]: https://github.com/StellarCanary/ProtocolCanary-Fixtures/pull/316
 [PR #317]: https://github.com/StellarCanary/ProtocolCanary-Fixtures/pull/317
+[PR #318]: https://github.com/StellarCanary/ProtocolCanary-Fixtures/pull/318
